@@ -1,0 +1,546 @@
+version 9
+
+	dam Bonneville_Dam
+		output_settings 7
+		powerhouse_priority 1
+		rsw_spill_cap 0
+
+		spill_mort Chinook_1 0.031
+		sluiceway_prop Chinook_1 0.44
+		sluiceway_mort Chinook_1 0.072
+		bypass_mort Chinook_1 0
+		turbine_mort Chinook_1 0.052
+		separation_prob Chinook_1 0.00000
+		fge_equation Chinook_1 61
+			parameter 0 -16.0
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 0.139
+			parameter 1 1.005
+		end spill_equation (Chinook_1)
+
+		spill_mort Steelhead 0.033
+		sluiceway_prop Steelhead 0.44
+		sluiceway_mort Steelhead 0.041
+		bypass_mort Steelhead 0
+		turbine_mort Steelhead 0.0465
+		separation_prob Steelhead 0.00000
+
+		fge_equation Steelhead 61
+			parameter 0 -16.0
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 0.040
+			parameter 1 1.007
+		end spill_equation (Steelhead)
+
+		additional_powerhouse Bonneville_Dam_2
+		powerhouse_priority 0
+		spill_mort Chinook_1 0
+		sluiceway_prop Chinook_1 0.33
+		sluiceway_mort Chinook_1 0
+		bypass_mort Chinook_1 0.02
+		turbine_mort Chinook_1 0.052
+		fge_equation Chinook_1 61
+			parameter 0 -0.619039208
+ 			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Chinook_1)
+
+		spill_mort Steelhead 0
+		sluiceway_prop Steelhead 0.7
+		sluiceway_mort Steelhead 0
+		bypass_mort Steelhead 0.0465
+		turbine_mort Steelhead 0.1215
+		fge_equation Steelhead 61
+			parameter 0 0.02000066671
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Steelhead)
+
+		end additional_powerhouse (Bonneville_Dam_2)
+	end dam (Bonneville_Dam)
+
+	dam The_Dalles_Dam
+		output_settings 7
+		rsw_spill_cap 0
+
+		spill_mort Chinook_1 0.076
+		sluiceway_prop Chinook_1 0.445
+		sluiceway_mort Chinook_1 0.006
+		bypass_mort Chinook_1 0
+		turbine_mort Chinook_1 0.182
+		separation_prob Chinook_1 0.00000
+		fge_equation Chinook_1 61
+			parameter 0 -16.0
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 1.046
+			parameter 1 0.992
+		end spill_equation (Chinook_1)
+
+		spill_mort Steelhead 0.076
+		sluiceway_prop Steelhead 0.59
+		sluiceway_mort Steelhead 0.006
+		bypass_mort Steelhead 0
+		turbine_mort Steelhead 0.182
+		separation_prob Steelhead 0.00000
+		fge_equation Steelhead 61
+			parameter 0 -16.0
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 1.304
+			parameter 1 0.992
+		end spill_equation (Steelhead)
+
+
+	end dam (The_Dalles_Dam)
+
+	dam John_Day_Dam
+		output_settings 7
+		rsw_spill_cap 19.2
+
+		rsw_mort Chinook_1 0.021
+		spill_mort Chinook_1 0.036
+		bypass_mort Chinook_1 0.035
+		turbine_mort Chinook_1 0.201
+		separation_prob Chinook_1 0.00000
+		fge_equation Chinook_1 61
+			parameter 0 1.29426097
+			parameter 1 0.0
+			parameter 2 0.00883182
+			parameter 3 -0.02217368
+			parameter 4 0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 0.58614186
+			parameter 1 1
+			parameter 2 0
+			parameter 3  0.0000
+			parameter 4  0.0000
+			parameter 5  0.0000
+		end spill_equation (Chinook_1)
+
+		rsw_equation Chinook_1 44
+			parameter 0 1.87186
+			parameter 1  0.7705
+		end rsw_equation (Chinook_1)
+
+		rsw_mort Steelhead 0.021
+		spill_mort Steelhead 0.027
+		bypass_mort Steelhead 0.118
+		turbine_mort Steelhead 0.201
+		separation_prob Steelhead 0.00000
+		fge_equation Steelhead 61
+			parameter 0 -1.98866501
+			parameter 1 0.0
+			parameter 2 0.01216859
+			parameter 3 -0.00000074
+			parameter 4 0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 1.31122026
+			parameter 1 1
+			parameter 2 0
+			parameter 3  0.0000
+			parameter 4  0.44017468
+			parameter 5  0.0000
+		end spill_equation (Steelhead)
+
+		rsw_equation Steelhead 44
+			parameter 0 2.1102
+			parameter 1 0.7705
+		end rsw_equation (Steelhead)
+
+
+	end dam (John_Day_Dam)
+
+	dam McNary_Dam
+		output_settings 7
+		rsw_spill_cap 18.7
+
+		rsw_mort Chinook_1 0.021
+		spill_mort Chinook_1 0.038
+		bypass_mort Chinook_1 0.087
+		turbine_mort Chinook_1 0.097
+		separation_prob Chinook_1 0.00000
+		fge_equation Chinook_1 61
+			parameter 0 3.34928843
+			parameter 1 0.0
+			parameter 2 0.00883182
+			parameter 3 -0.02217368
+			parameter 4 0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 0.58614186
+			parameter 1 1
+			parameter 2 0
+			parameter 3  0.0000
+			parameter 4  0.0000
+			parameter 5  0.0000
+		end spill_equation (Chinook_1)
+
+		rsw_equation Chinook_1 44
+			parameter 0 1.87186
+			parameter 1  0.7705
+		end rsw_equation (Chinook_1)
+
+		rsw_mort Steelhead 0.021
+		spill_mort Steelhead 0.041
+		bypass_mort Steelhead 0.048
+		turbine_mort Steelhead 0.11
+		separation_prob Steelhead 0.00000
+
+		fge_equation Steelhead 61
+			parameter 0 -0.35433517
+			parameter 1 0.0
+			parameter 2 0.01216859
+			parameter 3 -0.00000074
+			parameter 4 0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 1.31122026
+			parameter 1 1
+			parameter 2 0
+			parameter 3  0.0000
+			parameter 4  0.44017468
+			parameter 5  0.0000
+		end spill_equation (Steelhead)
+
+		rsw_equation Steelhead 44
+			parameter 0 2.1102
+			parameter 1 0.7705
+		end rsw_equation (Steelhead)
+
+	end dam (McNary_Dam)
+	
+	dam Ice_Harbor_Dam
+		output_settings 7
+		rsw_spill_cap 7.9
+
+		rsw_mort Chinook_1 0.03
+		spill_mort Chinook_1 0.035
+		bypass_mort Chinook_1 0.003
+		turbine_mort Chinook_1 0.129
+		separation_prob Chinook_1 0.00000
+		fge_equation Chinook_1 61
+			parameter 0 0.900245741
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 1.982544
+			parameter 1 1.027407
+			parameter 2 0.0000
+			parameter 3  0.0000
+			parameter 4  -0.1063807
+			parameter 5  0.0000
+		end spill_equation (Chinook_1)
+
+		rsw_equation Chinook_1 44
+			parameter 0 0.99189
+			parameter 1  0.7705
+		end rsw_equation (Chinook_1)
+
+		rsw_mort Steelhead 0.015
+		spill_mort Steelhead 0.01
+		bypass_mort Steelhead 0
+		turbine_mort Steelhead 0.129
+		separation_prob Steelhead 0.00000
+
+		fge_equation Steelhead 61
+			parameter 0 2.586689344
+			parameter 1 0.0
+			parameter 2 0.0
+			parameter 3 0.0
+			parameter 4 0.0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 1.623641 
+			parameter 1  1.027407
+			parameter 3  0.0000
+			parameter 4  -0.266161
+			parameter 5  0.0000
+		end spill_equation (Steelhead)
+
+		rsw_equation Steelhead 44
+			parameter 0 1.23105
+			parameter 1  0.7705
+		end rsw_equation (Steelhead)
+
+	end dam (Ice_Harbor_Dam)
+
+
+	dam Lower_Monumental_Dam
+		output_settings 7
+		rsw_spill_cap 8.0
+
+		rsw_mort Chinook_1 0.02
+		spill_mort Chinook_1 0.039
+		bypass_mort Chinook_1 0.078
+		turbine_mort Chinook_1 0.119
+		separation_prob Chinook_1 0.0170
+		transport_mort Chinook_1 0.02
+
+		fge_equation Chinook_1 61
+			parameter 0 0.24639103
+			parameter 1 0.0
+			parameter 2 0.02658176
+			parameter 3 -0.01120855
+			parameter 4 0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 1.82309124
+			parameter 1 1.00326937
+			parameter 2 -0.0077031
+			parameter 3  0.0000
+			parameter 4 0
+			parameter 5 0
+		end spill_equation (Chinook_1)
+
+		rsw_equation Chinook_1 44
+			parameter 0 1.87186
+			parameter 1  0.7705
+		end rsw_equation (Chinook_1)
+
+
+		rsw_mort Steelhead 0.02
+		spill_mort Steelhead 0.039
+		bypass_mort Steelhead 0.078
+		turbine_mort Steelhead 0.119
+		separation_prob Steelhead 0.03
+		transport_mort Steelhead 0.02
+
+		fge_equation Steelhead 61
+			parameter 0 1.61571997
+			parameter 1 0.0
+			parameter 2 0.05443158
+			parameter 3 -0.03178508
+			parameter 4 0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 0.75414973
+			parameter 1 0.8605513
+			parameter 2 -0.00077062
+			parameter 3  0.0000
+			parameter 4 0.54822413
+			parameter 5 -0.00127117
+		end spill_equation (Steelhead)
+
+		rsw_equation Steelhead 44
+			parameter 0 2.1102
+			parameter 1 0.7705
+		end rsw_equation (Steelhead)
+
+	end dam (Lower_Monumental_Dam)
+
+	
+	dam Little_Goose_Dam
+		output_settings 7
+		rsw_spill_cap 0
+
+		spill_mort Chinook_1 0.028
+		bypass_mort Chinook_1 0.036
+		turbine_mort Chinook_1 0.077
+		separation_prob Chinook_1 0.0017
+		transport_mort Chinook_1 0.02
+
+		fge_equation Chinook_1 61
+			parameter 0 1.31199306
+			parameter 1 0.0
+			parameter 2 0.02658176
+			parameter 3 -0.01120855
+			parameter 4 0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 1.66724847
+			parameter 1 1.00326937
+			parameter 2 -0.0077031
+			parameter 3  0.0000
+			parameter 4 0
+			parameter 5 0
+		end spill_equation (Chinook_1)
+
+		spill_mort Steelhead 0.028
+		bypass_mort Steelhead 0.05
+		turbine_mort Steelhead 0.07
+		separation_prob Steelhead 0.006
+		transport_mort Steelhead 0.02
+
+		fge_equation Steelhead 61
+			parameter 0 1.9875252
+			parameter 1 0.0
+			parameter 2 0.05443158
+			parameter 3 -0.03178508
+			parameter 4 0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 0.5892933
+			parameter 1 0.8605513
+			parameter 2 -0.00077062
+			parameter 3  0.0000
+			parameter 4 0.54822413
+			parameter 5 -0.00127117
+		end spill_equation (Steelhead)
+
+	end dam (Little_Goose_Dam)
+
+	dam Lower_Granite_Dam
+		output_settings 7
+		rsw_spill_cap 6.75
+
+		rsw_mort Chinook_1 0.021
+		spill_mort Chinook_1 0.069
+		bypass_mort Chinook_1 0.03
+		turbine_mort Chinook_1 0.055
+		separation_prob Chinook_1 0.0510
+		transport_mort Chinook_1 0.02
+
+		fge_equation Chinook_1 61
+			parameter 0 1.58076413
+			parameter 1 0.0
+			parameter 2 0.02658176
+			parameter 3 -0.01120855
+			parameter 4 0
+		end fge_equation (Chinook_1)
+
+		spill_equation Chinook_1 44
+			parameter 0 2.07512819
+			parameter 1 1.00326937
+			parameter 2 -0.0077031
+			parameter 3  0.0000
+		end spill_equation (Chinook_1)
+
+		rsw_equation Chinook_1 44
+			parameter 0 1.87186
+			parameter 1  0.7705
+		end rsw_equation (Chinook_1)
+
+		rsw_mort Steelhead 0.021
+		spill_mort Steelhead 0.069
+		bypass_mort Steelhead 0.03
+		turbine_mort Steelhead 0.055
+		separation_prob Steelhead 0.037
+		transport_mort Steelhead 0.02
+
+		fge_equation Steelhead 61
+			parameter 0 2.33848785
+			parameter 1 0.0
+			parameter 2 0.05443158
+			parameter 3 -0.03178508
+			parameter 4 0
+		end fge_equation (Steelhead)
+
+		spill_equation Steelhead 44
+			parameter 0 0.72393768
+			parameter 1 0.8605513
+			parameter 2 -0.00077062
+			parameter 3  0.0000
+			parameter 4 0.54822413
+			parameter 5 -0.00127117
+		end spill_equation (Steelhead)
+
+		rsw_equation Steelhead 44
+			parameter 0 2.1102
+			parameter 1 0.7705
+		end rsw_equation (Steelhead)
+
+	end dam (Lower_Granite_Dam)
+
+
+
+	reach Estuary
+		output_settings 0
+	end reach (Estuary)
+
+	reach Jones_Beach
+		output_settings 0
+	end reach (Jones_Beach)
+
+	reach Columbia_Gorge
+		output_settings 0
+	end reach (Columbia_Gorge)
+
+	reach Bonneville_Tailrace
+		output_settings 1
+	end reach (Bonneville_Tailrace)
+
+	reach Bonneville_Pool
+		output_settings 1
+	end reach (Bonneville_Pool)
+
+	reach The_Dalles_Pool
+		output_settings 1
+	end reach (The_Dalles_Pool)
+
+	reach Deschutes_Confluence
+		output_settings 1
+	end reach (Deschutes_Confluence)
+	
+	reach John_Day_Pool
+		output_settings 1
+	end reach (John_Day_Pool)
+	
+	reach McNary_Pool
+		output_settings 1
+	end reach (McNary_Pool)
+
+	reach Lower_Snake_River
+		output_settings 1
+	end reach (Lower_Snake_River)
+	
+	reach Ice_Harbor_Pool
+		output_settings 1
+	end reach (Ice_Harbor_Pool)
+	
+	reach Lower_Monumental_Pool
+		output_settings 1
+	end reach (Lower_Monumental_Pool)
+	
+	reach Little_Goose_Pool
+		output_settings 1
+	end reach (Little_Goose_Pool)
+
+	reach Lower_Granite_Pool
+		output_settings 1
+	end reach (Lower_Granite_Pool)
+
+	
+	
+

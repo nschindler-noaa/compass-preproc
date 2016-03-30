@@ -1,0 +1,9 @@
+#============================================================================#
+# COMPASS Control File                               COMPASS v0.24 (Solaris 2.x)
+#
+#Written by user camel (Susannah Iltis, 685-2182) on Wed Apr 11 11:46:23 2007
+#	from host unknown host.
+#============================================================================#
+version 9
+include base.dat
+include include.powerhouse

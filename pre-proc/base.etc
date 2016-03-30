@@ -1,0 +1,297 @@
+#============================================================================#
+# COMPASS Configuration File                         COMPASS v1.7 (Solaris 2.x)
+#
+#Written by user camel (Susannah Iltis, 685-2182) on Thu Jun 22 15:29:50 2006
+#	from host unknown host.
+#============================================================================#
+version 9
+	reach Estuary
+		reach_class Class_0
+		output_settings 1
+	end reach (Estuary)
+
+	reach Jones_Beach
+		reach_class Class_0
+		output_settings 1
+	end reach (Jones_Beach)
+
+	reach Columbia_Gorge
+		reach_class Class_0
+		output_settings 1
+	end reach (Columbia_Gorge)
+
+	reach Bonneville_Tailrace
+		reach_class Class_0
+		output_settings 1
+	end reach (Bonneville_Tailrace)
+
+	dam Bonneville_Dam
+		output_settings 7
+	end dam (Bonneville_Dam)
+
+	reach Bonneville_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Bonneville_Pool)
+
+	dam The_Dalles_Dam
+		output_settings 7
+	end dam (The_Dalles_Dam)
+
+	reach The_Dalles_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (The_Dalles_Pool)
+
+	reach Deschutes_Confluence
+		reach_class Class_0
+		output_settings 1
+	end reach (Deschutes_Confluence)
+
+	dam John_Day_Dam
+		output_settings 7
+	end dam (John_Day_Dam)
+
+	reach John_Day_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (John_Day_Pool)
+
+	dam McNary_Dam
+		output_settings 7
+	end dam (McNary_Dam)
+
+	reach McNary_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (McNary_Pool)
+
+	reach Columbia_above_Snake_Confluence
+		reach_class Class_0
+		output_settings 1
+	end reach (Columbia_above_Snake_Confluence)
+
+	reach Hanford_Reach
+		reach_class Class_0
+		output_settings 1
+	end reach (Hanford_Reach)
+
+	dam Priest_Rapids_Dam
+		output_settings 7
+	end dam (Priest_Rapids_Dam)
+
+	reach Priest_Rapids_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Priest_Rapids_Pool)
+
+	dam Wanapum_Dam
+		output_settings 7
+	end dam (Wanapum_Dam)
+
+	reach Wanapum_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Wanapum_Pool)
+
+	dam Rock_Island_Dam
+		output_settings 7
+	end dam (Rock_Island_Dam)
+
+	reach Rock_Island_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Rock_Island_Pool)
+
+	reach Wenatchee_Columbia
+		reach_class Class_0
+		output_settings 1
+	end reach (Wenatchee_Columbia)
+
+	dam Rocky_Reach_Dam
+		output_settings 7
+	end dam (Rocky_Reach_Dam)
+
+	reach Rocky_Reach_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Rocky_Reach_Pool)
+
+	dam Wells_Dam
+		output_settings 7
+	end dam (Wells_Dam)
+
+	reach Wells_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Wells_Pool)
+
+	reach Methow_Confluence
+		reach_class Class_0
+		output_settings 1
+	end reach (Methow_Confluence)
+
+	reach Okanogan_Confluence
+		reach_class Class_0
+		output_settings 1
+	end reach (Okanogan_Confluence)
+
+	dam Chief_Joseph_Dam
+		output_settings 7
+	end dam (Chief_Joseph_Dam)
+
+	headwater Columbia_Headwater
+		output_settings 0
+	end headwater (Columbia_Headwater)
+
+	reach Deschutes_River
+		reach_class Class_0
+		output_settings 1
+	end reach (Deschutes_River)
+
+	reach Deschutes_above_Warm_Springs
+		reach_class Class_0
+		output_settings 1
+	end reach (Deschutes_above_Warm_Springs)
+
+	headwater Deschutes_Headwater
+		output_settings 0
+	end headwater (Deschutes_Headwater)
+
+	reach Lower_Snake_River
+		reach_class Class_0
+		output_settings 1
+	end reach (Lower_Snake_River)
+
+	dam Ice_Harbor_Dam
+		output_settings 7
+	end dam (Ice_Harbor_Dam)
+
+	reach Ice_Harbor_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Ice_Harbor_Pool)
+
+	dam Lower_Monumental_Dam
+		output_settings 7
+	end dam (Lower_Monumental_Dam)
+
+	reach Lower_Monumental_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Lower_Monumental_Pool)
+
+	dam Little_Goose_Dam
+		output_settings 7
+	end dam (Little_Goose_Dam)
+
+	reach Little_Goose_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Little_Goose_Pool)
+
+	dam Lower_Granite_Dam
+		output_settings 7
+	end dam (Lower_Granite_Dam)
+
+	reach Lower_Granite_Pool
+		reach_class Class_0
+		output_settings 1
+	end reach (Lower_Granite_Pool)
+
+	reach Snake_above_Clearwater
+		reach_class Class_0
+		output_settings 1
+	end reach (Snake_above_Clearwater)
+
+	reach Snake_above_Grand_Ronde
+		reach_class Class_0
+		output_settings 1
+	end reach (Snake_above_Grand_Ronde)
+
+	reach Snake_above_Salmon
+		reach_class Class_0
+		output_settings 1
+	end reach (Snake_above_Salmon)
+
+	reach Snake_above_Imnaha
+		reach_class Class_0
+		output_settings 1
+	end reach (Snake_above_Imnaha)
+
+	dam Hells_Canyon_Dam
+		output_settings 7
+	end dam (Hells_Canyon_Dam)
+
+	headwater Snake_Headwater
+		output_settings 0
+	end headwater (Snake_Headwater)
+
+	reach Clearwater_River
+		reach_class Class_0
+		output_settings 1
+	end reach (Clearwater_River)
+
+	reach Clearwater_above_North_Fork
+		reach_class Class_0
+		output_settings 1
+	end reach (Clearwater_above_North_Fork)
+
+	reach South_Fork_Clearwater
+		reach_class Class_0
+		output_settings 1
+	end reach (South_Fork_Clearwater)
+
+	headwater Clearwater_Headwater
+		output_settings 0
+	end headwater (Clearwater_Headwater)
+
+	reach North_Fork_Clearwater
+		reach_class Class_0
+		output_settings 1
+	end reach (North_Fork_Clearwater)
+
+	dam Dworshak_Dam
+		output_settings 7
+	end dam (Dworshak_Dam)
+
+	headwater North_Fork_Clearwater_Headwater
+		output_settings 0
+	end headwater (North_Fork_Clearwater_Headwater)
+
+	reach Middle_Fork_Clearwater
+		reach_class Class_0
+		output_settings 1
+	end reach (Middle_Fork_Clearwater)
+
+	headwater Middle_Fork_Clearwater_Headwater
+		output_settings 0
+	end headwater (Middle_Fork_Clearwater_Headwater)
+
+	reach Salmon_River
+		reach_class Class_0
+		output_settings 1
+	end reach (Salmon_River)
+
+	headwater Salmon_Headwater
+		output_settings 0
+	end headwater (Salmon_Headwater)
+
+	reach Wenatchee_River
+		reach_class Class_0
+		output_settings 1
+	end reach (Wenatchee_River)
+
+	headwater Wenatchee_Headwater
+		output_settings 0
+	end headwater (Wenatchee_Headwater)
+
+	reach Methow_River
+		reach_class Class_0
+		output_settings 1
+	end reach (Methow_River)
+
+	headwater Methow_Headwater
+		output_settings 0
+	end headwater (Methow_Headwater)
+

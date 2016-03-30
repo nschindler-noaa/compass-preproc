@@ -1,0 +1,71 @@
+version 9
+
+reach Columbia_above_Snake_Confluence
+       ufree_eqn       9
+                parameter 0 0.50024
+                parameter 1 0.35900
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Columbia_above_Snake_Confluence)
+
+reach Hanford_Reach
+       ufree_eqn       9
+                parameter 0 0.50024
+                parameter 1 0.35900
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Hanford_Reach)
+
+
+reach Lower_Snake_River
+       ufree_eqn       9
+                parameter 0 0.483180
+                parameter 1 0.648150
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Lower_Snake_River)
+
+reach Ice_Harbor_Pool
+       ufree_eqn       9
+                parameter 0 0.483180
+                parameter 1 0.648150
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Ice_Harbor_Pool)
+
+reach Lower_Monumental_Pool
+       ufree_eqn       9
+                parameter 0 0.483180
+                parameter 1 0.648150
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Lower_Monumental_Pool)
+
+reach Little_Goose_Pool
+       ufree_eqn       9
+                parameter 0 0.483180
+                parameter 1 0.648150
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Little_Goose_Pool)
+
+reach Lower_Granite_Pool
+       ufree_eqn       9
+                parameter 0 0.483180
+                parameter 1 0.648150
+       end ufree_eqn ()
+       ufree_max 8.000000
+end reach (Lower_Granite_Pool)
+
+
+
+ufree_eqn	9
+  parameter 1 4.500000
+end ufree_eqn ()
+
+ufree_max 8.000000
+
+
+
+
+

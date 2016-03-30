@@ -1,0 +1,154 @@
+#============================================================================#
+# COMPASS Data File                                  COMPASS v0.22 (Solaris 2.x)
+#
+#Written by user camel (Susannah Iltis, 685-2182) on Fri Mar 23 10:26:13 2007
+#	from host unknown host.
+#============================================================================#
+version 9
+	dam Bonneville_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		powerhouse_priority 0
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+		additional_powerhouse Bonneville_Dam_2
+			powerhouse_capacity 1000.00
+			powerhouse_priority 1
+			powerhouse_schedule 0:365 (0:24)
+		end additional_powerhouse (Bonneville_Dam_2)
+	end dam (Bonneville_Dam)
+
+	dam The_Dalles_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (The_Dalles_Dam)
+
+	dam John_Day_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (John_Day_Dam)
+
+	dam McNary_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (McNary_Dam)
+
+	dam Priest_Rapids_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Priest_Rapids_Dam)
+
+	dam Wanapum_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Wanapum_Dam)
+
+	dam Rock_Island_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		powerhouse_priority 0
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+		additional_powerhouse Rock_Island_Dam_2
+			powerhouse_capacity 1000.00
+			powerhouse_priority 1
+			powerhouse_schedule 0:365 (0:24)
+		end additional_powerhouse (Rock_Island_Dam_2)
+	end dam (Rock_Island_Dam)
+
+	dam Rocky_Reach_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Rocky_Reach_Dam)
+
+	dam Wells_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Wells_Dam)
+
+	dam Chief_Joseph_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+		storage_volume [*] 5185.50
+	end dam (Chief_Joseph_Dam)
+
+	dam Ice_Harbor_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Ice_Harbor_Dam)
+
+	dam Lower_Monumental_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Lower_Monumental_Dam)
+
+	dam Little_Goose_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Little_Goose_Dam)
+
+	dam Lower_Granite_Dam
+		powerhouse_capacity 1000.00
+		powerhouse_schedule 0:365 (0:24)
+		rsw_spill_cap 0.000000
+		spill_cap 1000.00
+		planned_spill_day 0:365 =  0.00
+		planned_spill_night 0:365 =  0.00
+	end dam (Lower_Granite_Dam)
+
+	dam Hells_Canyon_Dam
+		storage_volume [*] 1200.00
+	end dam (Hells_Canyon_Dam)
+
+	dam Dworshak_Dam
+		storage_volume [*] 2015.80
+	end dam (Dworshak_Dam)
+
